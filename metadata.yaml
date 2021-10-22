@@ -1,0 +1,5 @@
+homepage: "https://www.trackify.info"
+documentation: "https://github.com/trackify-info/GoogleTagManager-WebTemplate-Tawk.to"
+versions:
+  - sha: 2c2019649c51c6bb5348bb6e5641292e07a22058
+    changeNotes: Initial release
