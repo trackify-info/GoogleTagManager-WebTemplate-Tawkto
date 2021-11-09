@@ -1,5 +1,9 @@
 homepage: "https://www.trackify.info"
 documentation: "https://github.com/trackify-info/GoogleTagManager-WebTemplate-Tawkto"
 versions:
-  - sha: 2c2019649c51c6bb5348bb6e5641292e07a22058
+  - sha: 6104d349388bf3437702f627878e6794b8c3e1c9
+    changeNotes: Add encodeUriComponent functions
+ - sha: 2c2019649c51c6bb5348bb6e5641292e07a22058
     changeNotes: Initial release
+
+
