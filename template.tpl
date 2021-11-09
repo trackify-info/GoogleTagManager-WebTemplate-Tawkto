@@ -71,7 +71,7 @@ const onFailure = () => {
   data.gtmOnFailure();
 };
 
-let twakURL = "https://embed.tawk.to/" + data.embedID + "/" + data.widgetID;
+let twakURL = "https://embed.tawk.to/" + encodeUriComponent(data.embedID) + "/" + encodeUriComponent(data.widgetID);
 
 if (data.embedID != undefined) {
   injectScript(twakURL, onSuccess, onFailure, twakURL);
@@ -79,7 +79,7 @@ if (data.embedID != undefined) {
   data.embedID = 'default';
 }
 
-let twakHelperURL = "https://twak-cdn.trackify.info/" + data.embedID + "-" + data.widgetID;
+let twakHelperURL = "https://twak-cdn.trackify.info/" + encodeUriComponent(data.embedID) + "-" + encodeUriComponent(data.widgetID);
 
 injectScript(twakHelperURL, onSuccess, onFailure, twakHelperURL);
 
